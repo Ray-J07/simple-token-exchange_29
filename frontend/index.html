@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>Simple Token Exchange</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div class="container">
+        <h1>Simple Token Exchange</h1>
+
+        <button id="connectBtn">Connect Wallet</button>
+
+        <div id="info">
+            <p><strong>Your Address:</strong> <span id="userAddress">-</span></p>
+            <p><strong>TokenA Balance:</strong> <span id="balanceA">0</span></p>
+            <p><strong>TokenB Balance:</strong> <span id="balanceB">0</span></p>
+        </div>
+
+        <div class="swap-box">
+            <h3>Swap A → B</h3>
+            <input id="swapAmount" type="number" placeholder="Enter amount of A" />
+            <button id="approveBtn">Approve TokenA</button>
+            <button id="swapBtn">Swap Now</button>
+        </div>
+
+        <pre id="log"></pre>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/ethers@5.7.2/dist/ethers.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>

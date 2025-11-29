@@ -1,0 +1,44 @@
+body {
+    background: #f0f2f5;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    width: 450px;
+    margin: 60px auto;
+    padding: 25px;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 0 15px #ccc;
+}
+
+input {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 14px;
+    border-radius: 5px;
+    border: 1px solid #aaa;
+}
+
+button {
+    padding: 10px 18px;
+    margin: 6px;
+    cursor: pointer;
+    border: none;
+    border-radius: 6px;
+    background: #007bff;
+    color: white;
+}
+
+button:hover {
+    background: #0056b3;
+}
+
+#log {
+    background: #222;
+    color: #0f0;
+    padding: 12px;
+    margin-top: 12px;
+    height: 150px;
+    overflow-y: scroll;
+}

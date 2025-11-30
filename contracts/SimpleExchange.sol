@@ -33,3 +33,6 @@ contract SimpleExchange {
         emit Exchanged(msg.sender, amountA, amountB);
     }
 }
+
+//分支：contract-opt
+//本分支用于对Token兑换逻辑进行优化，重点关注安全性及Gas消耗问题。

@@ -85,6 +85,10 @@ simple-token-exchange_29
 └── LICENSE                     # MIT License
 ```
 
+
+分支：doc-update
+本分支用于完善项目说明文档，补充安装步骤、使用方式和开源协议说明。
+
 ---
 
 # **4. 合约设计（Smart Contract Design）**

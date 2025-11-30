@@ -85,8 +85,13 @@ simple-token-exchange_29
 └── LICENSE                     # MIT License
 ```
 
-分支：frontend-ui
+本项目分支说明：
+
+分支1：frontend-ui
 本分支用于开发前端用户界面，计划通过 HTML + JavaScript + Ethers.js 实现与智能合约交互。
+
+分支2：doc-update
+本分支用于完善项目说明文档，补充安装步骤、使用方式和开源协议说明。
 
 
 ---

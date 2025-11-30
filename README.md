@@ -1,4 +1,4 @@
-# 📘 **simple-token-exchange_29**
+# **simple-token-exchange_29**
 
 一个基于 **Hardhat + Solidity + 前端 Web 界面** 的去中心化简易 Token 兑换平台（Simple Token Exchange）。
 用户可以通过本平台进行 **ERC20 代币兑换**、查看价格、管理授权等操作。本项目用于演示区块链基本技术栈、智能合约开发流程、前端交互、GitHub 开源协作流程。
@@ -7,24 +7,24 @@
 
 ---
 
-# 📌 **项目功能（Features）**
+# **1. 项目功能（Features）**
 
-### ✅ 1. 简易 Token 兑换（Simple Swap）
+### 1. 简易 Token 兑换（Simple Swap）
 
 用户可以使用 TokenA 兑换 TokenB（按照预设固定兑换比率）。
 
-### ✅ 2. ERC20 Token 实现
+### 2. ERC20 Token 实现
 
 包含可铸造、增发的 TestToken（测试代币）
 
 * TokenA（A代币）
 * TokenB（B代币）
 
-### ✅ 3. 授权机制
+### 3. 授权机制
 
 兑换前需要用户授权合约代扣 Token。
 
-### ✅ 4. 钱包交互（MetaMask）
+### 4. 钱包交互（MetaMask）
 
 前端支持：
 
@@ -34,7 +34,7 @@
 * 执行兑换交易
 * 显示交易结果
 
-### ✅ 5. 前端展示界面
+### 5. 前端展示界面
 
 基于 HTML/JavaScript 的简单展示：
 
@@ -45,7 +45,7 @@
 
 ---
 
-# 🏗️ **技术架构（Tech Stack）**
+# **2. 技术架构（Tech Stack）**
 
 | 层级      | 技术                      |
 | ------- | ----------------------- |
@@ -59,7 +59,7 @@
 
 ---
 
-# 📁 **项目目录结构（Project Structure）**
+# **3. 项目目录结构（Project Structure）**
 
 ```
 simple-token-exchange_29
@@ -87,7 +87,7 @@ simple-token-exchange_29
 
 ---
 
-# 🔐 **合约设计（Smart Contract Design）**
+# **4. 合约设计（Smart Contract Design）**
 
 ## **TestToken.sol**
 
@@ -114,7 +114,7 @@ exchangeRate = 100; // 1 TokenA = 100 TokenB
 
 ---
 
-# 🚀 **如何运行项目（Installation & Run）**
+# **5. 如何运行项目（Installation & Run）**
 
 ## **步骤 1：安装依赖**
 
@@ -146,7 +146,7 @@ npx hardhat run scripts/deploy.js --network localhost
 
 ---
 
-# 🧪 **运行测试（Testing）**
+# **6. 运行测试（Testing）**
 
 执行所有测试：
 
@@ -164,7 +164,7 @@ npx hardhat test
 
 ---
 
-# 🌐 **前端启动方法（Frontend）**
+# **7. 前端启动方法（Frontend）**
 
 无需 Node 服务，直接双击：
 
@@ -176,7 +176,7 @@ frontend/index.html
 
 ---
 
-# 📝 **部署脚本（deploy.js 示例）**
+# **8. 部署脚本（deploy.js 示例）**
 
 ```js
 const hre = require("hardhat");
@@ -205,13 +205,13 @@ main();
 
 ---
 
-# 📄 **许可证（License）**
+# **9. 许可证（License）**
 
 本项目采用 MIT License 开源协议，允许任何人自由复制、二次开发、分发本项目。
 
 ---
 
-# 🔭 **未来功能（Project Roadmap）**
+# **10. 未来功能（Project Roadmap）**
 
 * 添加可变兑换比率
 * 引入 Chainlink 实时价格
@@ -222,7 +222,7 @@ main();
 
 ---
 
-# 🤝 **开源协作方式（Contribution）**
+# **11. 开源协作方式（Contribution）**
 
 欢迎通过以下方式参与：
 
@@ -235,7 +235,7 @@ main();
 
 ---
 
-# 🎉 结束语
+# 结束语
 
 本项目旨在帮助学习者理解区块链 DApp 开发完整流程，包括智能合约编写、测试、部署、前端交互和开源协作。在课程中可作为较完整的展示案例，也可用于继续扩展成更复杂的智能交易平台。
 

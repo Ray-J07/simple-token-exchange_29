@@ -85,6 +85,10 @@ simple-token-exchange_29
 └── LICENSE                     # MIT License
 ```
 
+分支：frontend-ui
+本分支用于开发前端用户界面，计划通过 HTML + JavaScript + Ethers.js 实现与智能合约交互。
+
+
 ---
 
 # **4. 合约设计（Smart Contract Design）**
